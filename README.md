@@ -1,25 +1,33 @@
-# Jogo de Adivinhação de Números
+# Jogo de Adivinhação
 
-Un jogo simples de adivinhação de números feito em TypeScript, onde o jogador tenta adivinhar um número gerado aleatoriamente dentro de um intervalo específico.
+Um jogo simples de adivinhação de números feito em TypeScript, onde o jogador tenta adivinhar um número gerado aleatoriamente dentro de um intervalo específico.
 
-## Como Jogar
+## Para jogar
 
-1. O jogo escolhe um número aleatório entre 1 e 100.
-2. Você deve adivinhar qual é esse número.
-3. Após cada palpite, o jogo informará se o seu palpite é maior, menor ou se você acertou.
-4. Continue tentando até encontrar o número certo!
+Escolha um número aleatório entre 1 e 100.
+Tente adivinhar qual é esse número.
+Após cada tentativa, o jogo dirá se ele é maior, menor ou se você acertou.
+Caso goste, continue tentando até acertar!
 
 ## Tecnologias Usadas
 
-- **TypeScript**: Para a lógica do jogo.
-- **Node.js**: Para executar o código no terminal.
+- **TypeScript**: Para a lógica.
+- **Node.js**: Para executar no terminal.
 
-## Instalação
+## Para rodar
 
-Para rodar o jogo, siga os passos abaixo:
+Siga os passos abaixo:
 
-### 1. Clone o repositório
+1. Clone o repositório
 
 ```bash
 git clone https://github.com/Lucinete-Tavares/jogo-de-advinhacao-de-numeros.git
 cd adivinhacao
+
+2. Instale as dependências
+
+npm install
+
+3. Execute
+
+npx ts-node index.ts
